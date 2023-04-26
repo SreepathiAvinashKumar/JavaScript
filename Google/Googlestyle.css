@@ -1,0 +1,73 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.page{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.letter{
+    font-size: 6em;
+    font-weight: 600;
+}
+#letter1{
+    color: rgb(71,138,243);
+}
+#letter2{
+    color: rgb(234,67,53);
+}
+#letter3{
+    color: rgb(251,188,5);
+}
+#letter4{
+    color: rgb(66,133,244);
+}
+#letter5{
+    color: rgb(52,168,83);
+}
+#letter6{
+    color: rgb(234,67,53);
+}
+.inputtext{
+    outline: none;
+    /* border: none; */
+    font-size: 1em;
+    width: 550px;
+    border-radius: 10px;
+    border-color: rgba(0,0,0,0.3);
+    border-width: 0.5px; 
+    padding: 8px;  
+    padding-left: 12px;
+}
+.inputtext:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.searchlogo{
+    border: none;
+    width: 25px;
+    height: 25px;
+
+}
+.searchbox{
+    display: flex;
+}
+.search{
+border: none;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+cursor: pointer;
+background-color: rgba(248, 240, 240, 0.8);
+
+}
+#searchbtn{
+    height: 40px;
+    width: 40px;
+}
+
+body{
+    background-image: url("https://source.unsplash.com/1600x900/?background");
+}
