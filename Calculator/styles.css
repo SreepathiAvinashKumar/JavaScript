@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.02em;
+}
+
+body{
+    background-color: rgba(197, 104, 58, 0.3);
+}
+
+.container{
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-buttons{
+background-color: rgba(0,0,0,0.6);
+border: none;
+backdrop-filter: blur(5px);
+display: flex;
+flex-direction: row;
+width: 350px;
+flex-wrap: wrap;
+justify-content: center;
+border: none;
+padding-bottom: 15px;
+border-radius: 0 0 10px 10px;
+margin-bottom: 20px;
+}
+.container-buttons button{
+    outline: none;
+    padding: 25px;
+    margin: 8px;
+    font-size: 1.2em;
+    background-color: rgba(0, 250, 208, 0.9);
+    border: none;
+    border-radius: 45%;
+    cursor:pointer;
+    
+}
+
+
+#AC {
+    padding: 18px;
+    background-color: greenyellow;
+}
+
+/* #minus{
+    padding: 28px;
+} */
+
+.container-screen{
+    width: 300px;
+    padding: 15px  0 0 0 ;
+    background-color:  lightyellow ;
+    border: none;
+    border-radius: 10px;
+    
+}
+.screen-container{
+    margin-top:10px;
+    width: 350px;
+    padding: 20px  35px 10px 25px;
+    /* margin: 10px 0px 20px 35px; */
+    background-color: rgba(0,0,0,0.6);
+    border: none;
+    border-radius: 15px 15px 0 0;
+}
+.container .container-screen p{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+}
+.container .container-screen p:focus{
+   outline: none;
+   margin: 40px 5px 5px 0;
+}
+
+
+
