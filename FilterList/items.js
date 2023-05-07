@@ -4,7 +4,7 @@ const products = [
       title: 'high-back bench',
       company: 'ikea',
       image:
-        'https://dl.airtable.com/.attachments/14ac9e946e1a02eb9ce7d632c83f742f/4fd98e64/product-1.jpeg',
+        'https://images.freeimages.com/images/large-previews/fda/newport-bridge-sunset-1634624.jpg',
       price: 9.99,
     },
     {
@@ -12,7 +12,7 @@ const products = [
       title: 'albany table',
       company: 'marcos',
       image:
-        'https://dl.airtable.com/.attachments/f3450755e165557344f7d6433242431e/93533098/product-1.jpeg',
+        'https://media.istockphoto.com/id/1392454801/photo/lynn-canyon-park.jpg?s=1024x1024&w=is&k=20&c=S3ypvgjj5rh_lpXICX4BJip6mPVyY0jbQwqiBo0eK_k=',
       price: 79.99,
     },
     {
