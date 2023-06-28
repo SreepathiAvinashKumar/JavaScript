@@ -6,17 +6,27 @@
 }
 
 body{
-    background-color: rgba(197, 104, 58, 0.3);
+    background: linear-gradient(318deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.8561799719887955) 65%);
+    backdrop-filter: blur(30px);
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .container{
-    border-radius: 15px;
+    /* background: linear-gradient(74deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.8561799719887955) 65%); */
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* height:28%;
+    width: 28%; */
+    box-shadow: 5px 0px 24px -3px rgba(36, 34, 34, 0.74);
+    border-radius: 15px;
 }
 .container-buttons{
-background-color: rgba(0,0,0,0.6);
+/* background-color: rgba(0,0,0,0.6); */
+background: linear-gradient(74deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.8561799719887955) 65%);
 border: none;
 backdrop-filter: blur(5px);
 display: flex;
@@ -34,11 +44,22 @@ margin-bottom: 20px;
     padding: 25px;
     margin: 8px;
     font-size: 1.2em;
-    background-color: rgba(0, 250, 208, 0.9);
+    box-shadow: inset 4px 1px 20px -3px rgba(20, 20,10, 0.50), inset 4px 1px 20px -3px rgba(20, 20, 10, 0.50);
+
     border: none;
-    border-radius: 45%;
+    border-radius: 50%;
     cursor:pointer;
+    transition: all 0.3s ease-in-out;
     
+}
+
+.container-buttons button:active{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+
+.container-buttons button:hover{
+    background-color: rgba(172, 255, 47, 0.918);
 }
 
 
@@ -54,9 +75,12 @@ margin-bottom: 20px;
 .container-screen{
     width: 300px;
     padding: 15px  0 0 0 ;
-    background-color:  lightyellow ;
+    /* background-color:  rgba(247, 247, 247, 0.842) ; */
+    background: linear-gradient(74deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.8561799719887955) 65%);
+
     border: none;
     border-radius: 10px;
+    overflow: hidden;
     
 }
 .screen-container{
@@ -64,7 +88,8 @@ margin-bottom: 20px;
     width: 350px;
     padding: 20px  35px 10px 25px;
     /* margin: 10px 0px 20px 35px; */
-    background-color: rgba(0,0,0,0.6);
+    background: linear-gradient(74deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.8561799719887955) 65%);
+
     border: none;
     border-radius: 15px 15px 0 0;
 }
@@ -75,7 +100,7 @@ margin-bottom: 20px;
     font-weight: bold;
     margin-right: 5px;
     margin-bottom: 5px;
-
+color: white;
 }
 .container .container-screen p:focus{
    outline: none;

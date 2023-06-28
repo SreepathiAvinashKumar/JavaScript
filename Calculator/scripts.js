@@ -1,4 +1,15 @@
 var b = document.getElementsByClassName("btn");
+
+
+for(var i=0;i<b.length;i++){
+  if(b[i].clicked==true){
+    b[i].addEventListener("click",()=>{
+    prompt();
+    })
+  }
+}
+
+
 let a = [];
 
 let screen = document.getElementById("content");
@@ -99,3 +110,5 @@ b[15].addEventListener("click", () => {
   s = s + b[15].innerText;
   screen.innerText = s;
 });
+
+
